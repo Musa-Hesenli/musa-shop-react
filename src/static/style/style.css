@@ -1,0 +1,370 @@
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('../font/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lato Light';
+    src: url('../font/Lato-Light.ttf');
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    width: 100%;
+    padding: 15px;
+}
+
+.img-container {
+    height: 600px;
+}
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.custom-card {
+    width: 100%;
+    border: 1px solid #ebeeeb;
+}
+
+.custom-card img {
+    height: 352px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-title a {
+    color: initial;
+    text-decoration: none;
+}
+
+.custom-card .card-title h4 {
+    font-size: 16px;
+}
+
+.custom-card .product-description {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.product-description a {
+
+    color: initial;
+    text-decoration: none;
+}
+
+.custom-card .star {
+    color: gold;
+}
+.card-container {
+    margin-bottom: 15px;
+}
+
+.price-wrapper .first-price {
+    text-decoration: line-through;
+    font-weight: 300;
+    margin-right: 5px;
+}
+
+.price-wrapper .updated-price {
+    margin-left: 5px;
+}
+
+.custom-card {
+    position: relative;
+}
+
+.custom-card .opportunity {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+    background-color: #9ad19a;
+    padding: 6px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.custom-card .add-to-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    
+}
+
+.custom-card .add-to-container .add-to-favorites {
+    border: 1px solid #ebeeeb;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: rgb(46, 46, 46);
+    transition: .2s;
+}
+
+.custom-card .add-to-container .add-to-cart {
+    border: 1px solid #ebeeeb;
+
+    background-color: #fff;
+    cursor: pointer;
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: rgb(46, 46, 46);
+    transition: .2s;
+    margin-left: 10px;
+}
+
+
+.custom-card .add-to-container .add-to-favorites:hover {
+    background-color: #e73e3e;
+    color: #fff;
+}
+
+.custom-card .add-to-container .add-to-favorites.active {
+    background-color: #e73e3e;
+    color: #fff;
+}
+
+.custom-card .add-to-container .add-to-cart:hover {
+    background-color: rgb(219, 124, 7);
+    color: #fff;
+}
+.custom-card .add-to-container .add-to-cart.active {
+    background-color: rgb(219, 124, 7);
+    color: #fff;
+}
+
+.footer-container {
+    background-color: #0d1423;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-container .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer-container .social-icons div {
+    margin: 0px 10px;
+    transition: .2s;
+}
+
+.footer-container .social-icons div.facebook:hover {
+    color: #4267B2;
+}
+.footer-container .social-icons div.instagram:hover {
+    color: #C13584;
+}
+
+.footer-container .social-icons div.twitter:hover {
+    color: #1DA1F2;
+}
+
+.footer-container .social-icons div.whatsapp:hover {
+    color: #25D366;
+}
+
+
+.footer-container .social-icons div.linkedin:hover {
+    color: #0077b5;
+}
+
+.footer-container .social-icons div.telegram:hover {
+    color: #0088cc;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    
+  }
+  
+.login-left-side-image {
+    width: 100%;
+}
+
+.img-wrapper {
+    border-right: 1px solid #ebeeeb;
+}
+
+.create-account-btn {
+    color: #4267B2;
+    text-decoration: none;
+}
+
+.form-control {
+    box-shadow: none !important;
+}
+
+.form-control {
+    border: 1.7px solid #4267B2;
+}
+
+.btn-primary {
+    background-color: #4267B2;
+    border-color: #4267B2;
+}
+
+.btn {
+    box-shadow: none !important;
+}
+
+.single__item__image {
+    position: relative;
+    height: 400px;
+}
+
+.single__item__image img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.sizes__wrapper {
+    display: flex;
+    align-items: center;
+
+}
+
+.sizes__wrapper .size__item {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ebeeeb;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.order__button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.add__to__favorites__single__item {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 1px solid #ebeeeb;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.add__to__favorites__single__item i {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+.entry__table img {
+    height: 100px;
+}
+
+
+
+.single-item .swiper-container{
+    width: 100%;
+    height: 100%;
+}
+
+
+.single-item .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.single-item .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.single-item .swiper-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.single-item .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.single-item .mySwiper2 {
+  height: 100%;
+  width: 100%;
+}
+
+.single-item .mySwiper2 .swiper-slide img {
+    object-fit: contain;
+}
+
+.single-item .mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.single-item .mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+}
+
+.single-item .mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
